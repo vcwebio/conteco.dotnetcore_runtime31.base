@@ -3,7 +3,7 @@
 export CONTECO_LABEL="dotnetcore_runtime31.base - Conteco"
 export CONTECO_DESCRIPTION="Microsoft dotnetcore runtime 3.1 image for the ContEco ecosystem."
 
-export CONTECO_TYPE="dotnetcore_runtime22"
+export CONTECO_TYPE="dotnetcore_runtime31"
 export CONTECO_NAME="base"
 export CONTECO_TAG="3.1.3"
 

@@ -22,7 +22,7 @@ WORKDIR /app
 ##### BEGIN image.base/Dockerfile/env-labels-footer #####
 ENV CONTECO_REALM="vcwebio" \
     CONTECO_ECOSYSTEM="conteco" \
-    CONTECO_TYPE="dotnetcore_runtime22" \
+    CONTECO_TYPE="dotnetcore_runtime31" \
     CONTECO_NAME="base" \
     CONTECO_TAG="3.1.3" \
     CONTECO_BASE="external.dotnetcore_runtime31:3.1.3" \
@@ -30,12 +30,12 @@ ENV CONTECO_REALM="vcwebio" \
 LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.realm="vcwebio" \
       io.vcweb.ecosystem="conteco" \
-      io.vcweb.type="dotnetcore_runtime22" \
+      io.vcweb.type="dotnetcore_runtime31" \
       io.vcweb.name="base" \
       io.vcweb.tag="3.1.3" \
       io.vcweb.base="external.dotnetcore_runtime31:3.1.3" \
       io.vcweb.build="image-base" \
       io.vcweb.label="dotnetcore_runtime31.base - Conteco" \
       io.vcweb.description="Microsoft dotnetcore runtime 3.1 image for the ContEco ecosystem." \
-      io.vcweb.docker.cmd.help="docker run vcwebio/conteco.dotnetcore_runtime22.base --help"
+      io.vcweb.docker.cmd.help="docker run vcwebio/conteco.dotnetcore_runtime31.base --help"
 ##### END image.base/Dockerfile/env-labels-footer #####
