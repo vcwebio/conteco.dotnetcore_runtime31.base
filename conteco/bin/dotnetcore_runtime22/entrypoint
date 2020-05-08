@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Select config file, extract name, cut off .config and launch dotnetcore
+echo "donet [entrypoint dll filename]"
