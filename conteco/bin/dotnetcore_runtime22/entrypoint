@@ -1,4 +1,11 @@
 #!/usr/bin/env bash
 
-# Select config file, extract name, cut off .config and launch dotnetcore
-echo "donet [entrypoint dll filename]"
+for f in /app/*.config ;
+  do
+    echo $f
+    script=${f/.config/}
+    break;
+  done;
+
+echo "dotnet $script"
+dotnet "$script"
