@@ -7,5 +7,6 @@ export CONTECO_TYPE="dotnetcore_runtime31"
 export CONTECO_NAME="base"
 export CONTECO_TAG="3.1.3"
 
-export CONTECO_BASE="external.dotnetcore_runtime31:3.1.3"
 export CONTECO_BUILD="image-base"
+
+export CONTECO_EXTERNAL_IMAGE_NAME="mcr.microsoft.com/dotnet/core/runtime:3.1.3"
